@@ -14,6 +14,7 @@ static int lua_flock(lua_State* L) {
         "sh", "shared", "rd", "read", "passive",
           "un", "unlock", "close", "release",
           "ex", "excl", "exclusive", "wr", "write", "active",
+          NULL
       })) {
   case 0: case 1: case 2: case 3: case 4: operation = LOCK_SH; break;
   case 5: case 6: case 7: case 8: operation = LOCK_UN; break;

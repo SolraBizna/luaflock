@@ -1,8 +1,8 @@
 package = "luaflock"
-version = "1.0.0-1"
+version = "1.0.1-1"
 source = {
    url = "git://github.com/SolraBizna/luaflock",
-   tag = "v1.0.0-1",
+   tag = "v1.0.1-1",
 }
 description = {
    summary = "A wrapper for the BSD-ish flock(2) system call.",
